@@ -10,7 +10,7 @@ import pandas as pd
 import os
 
 # Folder containing the downloaded NHANES files
-folder = r"C:\Users\cdelj\Downloads"
+folder = "data"
 
 # File names
 files = {
