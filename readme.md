@@ -84,8 +84,8 @@ Uses logistic LASSO regression for variable selection
 Applies the 1-standard-error rule
 Identifies potential parents of statin use and LDL control
 Generates a DAG using LASSO-selected variables
-**Limitations**
 
+**Limitations**
 NHANES uses a cross-sectional design, limiting the ability to establish temporal or causal relationships between statin use and LDL control. NHANES is designed primarily for national population estimates rather than state-, local-, or individual patient-level conclusions. Some variables, including medication use, smoking history, and medical history, also rely at least partly on participant reporting.
 
 **Tech Stack**
@@ -94,5 +94,6 @@ pandas / numpy — data preparation
 scikit-learn — logistic LASSO regression and standardization
 NetworkX — DAG construction
 matplotlib — DAG visualization
+
 **Author**
 Charles Carr, George Mason Univeristy
